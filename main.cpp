@@ -9,7 +9,9 @@ int main()
 {
     char CurrentInput;
     string OpenCommand = "ncat -nvlp ";
+    //IF YOU ARE RUNNNING ON LINUX REPLACE THE ABOVE LINE WITH THIS:string OpenCommand = "nc -nvlp ";
     string ConnectCommand = "ncat -nv ";
+    //IF YOU ARE RUNNNING ON LINUX REPLACE THE ABOVE LINE WITH THIS:string ConnectCommand = "nc -nv ";
     cout << "--------Chat Messagener---------" << endl;
     cout << "Enter c too connect to open connection or o to open a connection: ";
     cin >> CurrentInput;
